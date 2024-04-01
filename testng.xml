@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Application Test Automation Test Suite">
+
+    <listeners>
+        <listener class-name="listners.ExtentReporterNG" />
+    </listeners>
+
+    <test name="Amazon App Test Cases">
+        <classes>
+            <class name="test.LoginPageTestTest"></class>
+            <class name="test.CreateAccountPageTest"></class>
+            <class name="test.ForgotPasswordPageTest"></class>
+            <class name="test.LandingPageTestTest"></class>
+            <class name="test.HomePageTest"></class>
+            <class name="test.SecurityFindingsPageTest"></class>
+            <class name="test.AddIntegrationPageTest"></class>
+        </classes>
+    </test>
+</suite>
